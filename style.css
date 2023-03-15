@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(108, 101, 122);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+#name, #email, #phone, #password{
+    width: 100%;
+  height: 27px; 
+  outline: none;
+  border: none;
+  border-radius: 5px; 
+  margin-bottom: 20px;
+  box-shadow: 3px 2px 3px 2px black;
+}
+#submit{
+    padding: 10px;
+    background-color: rgb(108, 101, 122);
+    color: #fff;
+    border: none;
+    box-shadow: 3px 2px 3px 2px black;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+fieldset{
+    box-shadow: 3px 2px 3px 2px black;
+}
+#female, #male {
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(81, 149, 245);
+}
+p{
+    margin: 15px;
+    letter-spacing: 1.5px;
+    
+}
+
+@media (max-width : 500px) {
+    body{
+        background-color: rgb(71, 71, 220);
+        height: 100vh;
+        background-position: fixed;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #submit{
+        background: rgb(71, 71, 220);
+    }
+}
+@media (min-width : 1280px) {
+    p{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
